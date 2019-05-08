@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#0ac6ff"
+    tools:context="com.afaque.rsgss.sungraceSupport.SplashScreenActivity">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center">
+       <ImageView
+           android:id="@+id/logo_img"
+           android:layout_width="match_parent"
+           android:layout_height="130dp"
+           app:srcCompat="@mipmap/logo2"
+           android:layout_marginTop="20dp"/>
+       <TextView
+           android:id="@+id/heading"
+           android:layout_below="@+id/logo_img"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="#fff"
+           android:gravity="center"
+           android:layout_marginTop="30sp"
+           android:text="COMPLAINT REGISTRATION"/>
+   </RelativeLayout>
+
+    </LinearLayout>
